@@ -47,15 +47,17 @@ def sum_array(array)
 end
 
 def add_s(array)
+  added_s = []
   counter = 0
   while counter < array.length
       if counter == 1
-        "#{array[1]}"
+        added_s << puts "#{array[1]}"
       else
-        "#{array[counter]}s"
+        added_s << puts "#{array[counter]}s"
       end
     counter += 1
   end
+  added_s
 end
 
 
