@@ -50,9 +50,9 @@ def add_s(array)
   counter = 0
   while counter < array.length
       if counter == 1
-        puts "#{array[1]}"
+        "#{array[1]}"
       else
-        puts "#{array[counter]}s"
+        "#{array[counter]}s"
       end
     counter += 1
   end
