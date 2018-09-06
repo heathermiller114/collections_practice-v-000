@@ -51,9 +51,9 @@ def add_s(array)
   counter = 0
   while counter < array.length
       if counter == 1
-        added_s << puts "#{array[1]}"
+        added_s << "#{array[1]}"
       else
-        added_s << puts "#{array[counter]}s"
+        added_s << "#{array[counter]}s"
       end
     counter += 1
   end
