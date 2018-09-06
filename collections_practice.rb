@@ -50,8 +50,8 @@ def add_s(array)
   counter = 0
   while counter < array.length
     puts "#{array[counter]}s"
-      if counter == 1 then
-        next  
+      if counter == 1
+        puts "#{array[1]}"
       end
     counter += 1
   end
